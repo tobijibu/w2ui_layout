@@ -1,0 +1,1 @@
+var linkClicked=function(){},initStateChange=function(){w2ui.mylayout&&w2ui.mylayout.destroy(),w2ui.mylayout2&&w2ui.mylayout2.destroy(),w2ui.mylayout3&&w2ui.mylayout3.destroy()},newPageReady=function(){},transitionCompleted=function(){"function"==typeof createObj&&createObj(),"function"==typeof createObj2&&createObj2(),"function"==typeof createObj3&&createObj3()};
