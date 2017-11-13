@@ -46,82 +46,94 @@
     <div class="barba-container">
       <div class="wrapper">
         <div class="navi">
-          <h1><a href="../">Home</a></h1>
-          <h1><a href="../overview.html">Overview</a></h1>
-          <h1 onclick="toggleEvents()">Events</h1>
-          <div class="hidden" id="navi_events">
-            <h2>Events</h2>
-            <ul>
-              <li class="onContent"><a href="../events/onContent.html">onContent</a></li>
-              <li class="onHide"><a href="../events/onHide.html">onHide</a></li>
-              <li class="onResizerClick"><a href="../events/onResizerClick.html">onResizerClick</a></li>
-              <li class="onResizing"><a href="../events/onResizing.html">onResizing</a></li>
-              <li class="onShow"><a href="../events/onShow.html">onShow</a></li>
-            </ul>
-            <h2>CommonEvents</h2>
-            <ul>
-              <li class="onDestroy"><a class="no-barba" href="../../w2ui_utils/events/onDestroy.html">onDestroy</a></li>
-              <li class="onRefresh"><a class="no-barba" href="../../w2ui_utils/events/onRefresh.html">onRefresh</a></li>
-              <li class="onRender"><a class="no-barba" href="../../w2ui_utils/events/onRender.html">onRender</a></li>
-              <li class="onResize"><a class="no-barba" href="../../w2ui_utils/events/onResize.html">onResize</a></li>
-            </ul>
-          </div>
-          <h1 onclick="toggleProperties()">Properties</h1>
-          <div class="hidden" id="navi_properties">
-            <h2>Properties</h2>
-            <ul>
-              <li class="padding"><a href="../properties/padding.html">padding</a></li>
-              <li class="panels"><a href="../properties/panels.html">panels</a></li>
-              <li class="resizer"><a href="../properties/resizer.html">resizer</a></li>
-              <li class="tmp"><a href="../properties/tmp.html">tmp</a></li>
-            </ul>
-            <h2>CommonProperties</h2>
-            <ul>
-              <li class="box"><a class="no-barba" href="../../w2ui_utils/properties/box.html">box</a></li>
-              <li class="handlers"><a class="no-barba" href="../../w2ui_utils/properties/handlers.html">handlers</a></li>
-              <li class="name"><a class="no-barba" href="../../w2ui_utils/properties/name.html">name</a></li>
-              <li class="style"><a class="no-barba" href="../../w2ui_utils/properties/style.html">style</a></li>
-            </ul>
-          </div>
-          <h1 onclick="toggleMethods()">Methods</h1>
-          <div id="navi_methods">
-            <h2>Methods</h2>
-            <ul>
-              <li class="assignToolbar"><a href="../methods/assignToolbar.html">assignToolbar</a></li>
-              <li class="content"><a href="../methods/content.html">content</a></li>
-              <li class="el"><a href="../methods/el.html">el</a></li>
-              <li class="get"><a href="../methods/get.html">get</a></li>
-              <li class="hide"><a href="../methods/hide.html">hide</a></li>
-              <li class="hideTabs"><a class="active" href="../methods/hideTabs.html">hideTabs</a></li>
-              <li class="hideToolbar"><a href="../methods/hideToolbar.html">hideToolbar</a></li>
-              <li class="html"><a href="../methods/html.html">html</a></li>
-              <li class="load"><a href="../methods/load.html">load</a></li>
-              <li class="lock"><a href="../methods/lock.html">lock</a></li>
-              <li class="message"><a href="../methods/message.html">message</a></li>
-              <li class="set"><a href="../methods/set.html">set</a></li>
-              <li class="show"><a href="../methods/show.html">show</a></li>
-              <li class="showTabs"><a href="../methods/showTabs.html">showTabs</a></li>
-              <li class="showToolbar"><a href="../methods/showToolbar.html">showToolbar</a></li>
-              <li class="sizeTo"><a href="../methods/sizeTo.html">sizeTo</a></li>
-              <li class="toggle"><a href="../methods/toggle.html">toggle</a></li>
-              <li class="toggleTabs"><a href="../methods/toggleTabs.html">toggleTabs</a></li>
-              <li class="toggleToolbar"><a href="../methods/toggleToolbar.html">toggleToolbar</a></li>
-              <li class="unlock"><a href="../methods/unlock.html">unlock</a></li>
-            </ul>
-            <h2>CommonMethods</h2>
-            <ul>
-              <li class="destroy"><a class="no-barba" href="../../w2ui_utils/methods/destroy.html">destroy</a></li>
-              <li class="off"><a class="no-barba" href="../../w2ui_utils/methods/off.html">off</a></li>
-              <li class="on"><a class="no-barba" href="../../w2ui_utils/methods/on.html">on</a></li>
-              <li class="refresh"><a class="no-barba" href="../../w2ui_utils/methods/refresh.html">refresh</a></li>
-              <li class="render"><a class="no-barba" href="../../w2ui_utils/methods/render.html">render</a></li>
-              <li class="resize"><a class="no-barba" href="../../w2ui_utils/methods/resize.html">resize</a></li>
-              <li class="trigger"><a class="no-barba" href="../../w2ui_utils/methods/trigger.html">trigger</a></li>
-            </ul>
-          </div>
-          <hr>
-          <h1>HTML Source</h1>
-          <div id="navi_source"><a href="https://github.com/tobijibu/w2ui_layout/archive/master.zip"><i class="menu-icon material-icons">&#xE884;</i></a><a href="https://github.com/tobijibu/w2ui_layout/"><i class="menu-icon material-icons">&#xE86F;</i></a></div>
+          <ul>
+            <li><a href="../">Home</a></li>
+            <li><a href="../overview.html">Overview</a></li>
+            <li><span onclick="toggleEvents()">Events</span>
+              <ul class="hidden" id="navi_events">
+                <li>Events
+                  <ul>
+                    <li class="onContent"><a href="../events/onContent.html">onContent</a></li>
+                    <li class="onHide"><a href="../events/onHide.html">onHide</a></li>
+                    <li class="onResizerClick"><a href="../events/onResizerClick.html">onResizerClick</a></li>
+                    <li class="onResizing"><a href="../events/onResizing.html">onResizing</a></li>
+                    <li class="onShow"><a href="../events/onShow.html">onShow</a></li>
+                  </ul>
+                </li>
+                <li>CommonEvents
+                  <ul>
+                    <li class="onDestroy"><a class="no-barba" href="../../w2ui_utils/events/onDestroy.html">onDestroy</a></li>
+                    <li class="onRefresh"><a class="no-barba" href="../../w2ui_utils/events/onRefresh.html">onRefresh</a></li>
+                    <li class="onRender"><a class="no-barba" href="../../w2ui_utils/events/onRender.html">onRender</a></li>
+                    <li class="onResize"><a class="no-barba" href="../../w2ui_utils/events/onResize.html">onResize</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><span onclick="toggleProperties()">Properties</span>
+              <ul class="hidden" id="navi_properties">
+                <li>Properties
+                  <ul>
+                    <li class="padding"><a href="../properties/padding.html">padding</a></li>
+                    <li class="panels"><a href="../properties/panels.html">panels</a></li>
+                    <li class="resizer"><a href="../properties/resizer.html">resizer</a></li>
+                    <li class="tmp"><a href="../properties/tmp.html">tmp</a></li>
+                  </ul>
+                </li>
+                <li>CommonProperties
+                  <ul>
+                    <li class="box"><a class="no-barba" href="../../w2ui_utils/properties/box.html">box</a></li>
+                    <li class="handlers"><a class="no-barba" href="../../w2ui_utils/properties/handlers.html">handlers</a></li>
+                    <li class="name"><a class="no-barba" href="../../w2ui_utils/properties/name.html">name</a></li>
+                    <li class="style"><a class="no-barba" href="../../w2ui_utils/properties/style.html">style</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><span onclick="toggleMethods()">Methods</span>
+              <ul id="navi_methods">
+                <li>Methods
+                  <ul>
+                    <li class="assignToolbar"><a href="../methods/assignToolbar.html">assignToolbar</a></li>
+                    <li class="content"><a href="../methods/content.html">content</a></li>
+                    <li class="el"><a href="../methods/el.html">el</a></li>
+                    <li class="get"><a href="../methods/get.html">get</a></li>
+                    <li class="hide"><a href="../methods/hide.html">hide</a></li>
+                    <li class="hideTabs"><a class="active" href="../methods/hideTabs.html">hideTabs</a></li>
+                    <li class="hideToolbar"><a href="../methods/hideToolbar.html">hideToolbar</a></li>
+                    <li class="html"><a href="../methods/html.html">html</a></li>
+                    <li class="load"><a href="../methods/load.html">load</a></li>
+                    <li class="lock"><a href="../methods/lock.html">lock</a></li>
+                    <li class="message"><a href="../methods/message.html">message</a></li>
+                    <li class="set"><a href="../methods/set.html">set</a></li>
+                    <li class="show"><a href="../methods/show.html">show</a></li>
+                    <li class="showTabs"><a href="../methods/showTabs.html">showTabs</a></li>
+                    <li class="showToolbar"><a href="../methods/showToolbar.html">showToolbar</a></li>
+                    <li class="sizeTo"><a href="../methods/sizeTo.html">sizeTo</a></li>
+                    <li class="toggle"><a href="../methods/toggle.html">toggle</a></li>
+                    <li class="toggleTabs"><a href="../methods/toggleTabs.html">toggleTabs</a></li>
+                    <li class="toggleToolbar"><a href="../methods/toggleToolbar.html">toggleToolbar</a></li>
+                    <li class="unlock"><a href="../methods/unlock.html">unlock</a></li>
+                  </ul>
+                </li>
+                <li>CommonMethods
+                  <ul>
+                    <li class="destroy"><a class="no-barba" href="../../w2ui_utils/methods/destroy.html">destroy</a></li>
+                    <li class="off"><a class="no-barba" href="../../w2ui_utils/methods/off.html">off</a></li>
+                    <li class="on"><a class="no-barba" href="../../w2ui_utils/methods/on.html">on</a></li>
+                    <li class="refresh"><a class="no-barba" href="../../w2ui_utils/methods/refresh.html">refresh</a></li>
+                    <li class="render"><a class="no-barba" href="../../w2ui_utils/methods/render.html">render</a></li>
+                    <li class="resize"><a class="no-barba" href="../../w2ui_utils/methods/resize.html">resize</a></li>
+                    <li class="trigger"><a class="no-barba" href="../../w2ui_utils/methods/trigger.html">trigger</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <hr>
+            <li>HTML Source
+              <div id="navi_source"><a href="https://github.com/tobijibu/w2ui_layout/archive/master.zip"><i class="menu-icon material-icons">&#xE884;</i></a><a href="https://github.com/tobijibu/w2ui_layout/"><i class="menu-icon material-icons">&#xE86F;</i></a></div>
+            </li>
+          </ul>
           <script>
             toggleEvents = function() {
               let elem = document.getElementById('navi_events');
